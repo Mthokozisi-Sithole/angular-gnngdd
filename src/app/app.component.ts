@@ -7,9 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent  {
 title = 'MatCurrencyFormatLibrary';
-  usAmount = 100;
+  zarAmount = 100;
   updateUSAmount(event) {
-    this.usAmount = event.target.value;
+    this.zarAmount = event.target.value;
   }
 
 }
